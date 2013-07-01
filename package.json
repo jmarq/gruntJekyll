@@ -1,0 +1,24 @@
+{
+  "name": "grunto",
+  "version": "0.0.0",
+  "description": "yup",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aadsfj"
+  },
+  "keywords": [
+    "lksajdf"
+  ],
+  "author": ";lkfasjdf",
+  "license": "a;lksfj",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-sass": "~0.3.0"
+  }
+}
