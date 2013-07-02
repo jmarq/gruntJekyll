@@ -11,7 +11,7 @@ grunt.initConfig({
       },
     },
      build:{
-	  files:['blog/css/*.css','blog/js/*.js','blog/_layouts/*.html','blog/*.html','blog/_posts/*.md'],
+	  files:['blog/css/*.css','blog/js/*.js','blog/_layouts/*.html','blog/*.html','blog/_posts/*.md','blog/_posts/*.markdown', 'blog/_posts/*.html'],
 	  tasks: ["shell:jekyllBuild"]
     },
     site_css:{
@@ -50,6 +50,7 @@ grunt.initConfig({
 		dist:{
 		  options:{
 		  keepalive:true,
+	          hostname:'0.0.0.0',
 		  port:8080,
 		  base:'./blog/_site'
 		  }
